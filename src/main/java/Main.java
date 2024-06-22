@@ -31,7 +31,7 @@ public class Main {
         return count;
     }
 
-    public int maxNumberOfBalloons(String text) {
+    public static int maxNumberOfBalloons(String text) {
         Map<Character, Integer> balloonCharFreq = new HashMap<>();
         balloonCharFreq.put('b', 1);
         balloonCharFreq.put('a', 1);
